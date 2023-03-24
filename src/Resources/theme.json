@@ -1,0 +1,76 @@
+{
+  "name": "RadfabrikTheme",
+  "author": "Radfabrik",
+    "style": [
+        "@Storefront",
+        "app/storefront/src/scss/base.scss"
+    ],
+    "asset": [
+        "app/storefront/src/assets"
+    ],
+    "views": [
+        "@Storefront",
+        "@Plugins",
+        "@RadfabrikTheme"
+    ],
+	"config": {
+		"fields": {
+            "rad-header-color-header-background": {
+                "label": {
+                    "en-GB": "Header Background",
+                    "de-DE": "Header Hintergrund"
+                },
+                "type": "color",
+                "value": "#333333",
+                "editable": true,
+                "block": "rad-header-color",
+                "helpText": {
+                    "en-GB": "Background-color for the header",
+                    "de-DE": "Hintergrund-Farbe für den Header"
+                }
+            },
+            "rad-header-color-topbar-border-color": {
+                "label": {
+                    "en-GB": "Topbar dividing line",
+                    "de-DE": "Topbar Trennlinie"
+                },
+                "type": "color",
+                "value": "#414141",
+                "editable": true,
+                "block": "rad-header-color",
+                "helpText": {
+                    "en-GB": "Colour for the topbar dividing line",
+                    "de-DE": "Farbe für die Topbar Trennlinie"
+                }
+            },
+            "rad-header-color-header-color": {
+                "label": {
+                    "en-GB": "Header font colour",
+                    "de-DE": "Header Schriftfarbe"
+                },
+                "type": "color",
+                "value": "#777777",
+                "editable": true,
+                "block": "rad-header-color",
+                "helpText": {
+                    "en-GB": "Font-color for the header",
+                    "de-DE": "Schriftfarbe für den Header"
+                }
+            },
+			"rad-header-color-icon-color": {
+                "label": {
+                    "en-GB": "Header Icon colour",
+                    "de-DE": "Header Icon Farbe"
+                },
+                "type": "color",
+                "value": "#ffffff",
+                "editable": true,
+                "block": "rad-header-color",
+                "helpText": {
+                    "en-GB": "Colour for the icons next to the search",
+                    "de-DE": "Farbe für die Icons neben der Suche"
+                }
+            }
+		}
+	}
+}

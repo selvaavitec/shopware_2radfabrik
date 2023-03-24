@@ -1,0 +1,36 @@
+{
+  "name": "rad/radfabrik-theme",
+
+  "description": "Premium shopware 6 theme",
+  "type": "shopware-platform-plugin",
+  "license": "proprietary",
+  "version": "v1.0.0",
+  "authors": [
+    {
+      "name": "2Radfabrik"
+    }
+  ],
+  "require": {
+    "shopware/core": ">=6.4.0",
+    "shopware/storefront": ">=6.4.0"
+ },
+  "minimum-stability": "RC",
+  "autoload": {
+    "psr-4": {
+      "RadfabrikTheme\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "RadfabrikTheme\\RadfabrikTheme",
+    "label": {
+      "de-DE": "2Radfabrik Theme",
+      "en-GB": "2Radfabrik Theme"
+    },
+    "description": {
+        "de-DE": "2Radfabrik for Shopware 6",
+        "en-GB": "2Radfabrik for Shopware 6"
+    },
+    "plugin-icon": "src/Resources/config/plugin.png",
+    "copyright": "(c) 2Radfabrik"
+  }
+}
